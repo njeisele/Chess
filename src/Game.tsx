@@ -1,9 +1,13 @@
+import Chessboard from 'chessboardjsx';
 import './App.css';
 
+
 function Game() {
+
+
   return (
     <div>
-      Game
+      <Chessboard position="start"/>
     </div>
   );
 }

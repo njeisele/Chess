@@ -14,7 +14,7 @@ function ReactRouter() {
           <Route exact path="/">
             <Home setGame={(game: any) => setGame(game)}/>
           </Route>
-          <Route path="/*">
+          <Route path="/*/*">
             <Game />
           </Route>
         </Switch>
